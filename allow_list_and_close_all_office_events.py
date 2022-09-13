@@ -3,7 +3,6 @@
 # and then adding all unique hashes to the allow list for all Windows policies
 # before closing (and optionally archiving) the events.
 
-
 import deepinstinct3 as di
 
 #define server config
@@ -50,7 +49,8 @@ for batch in event_id_list_broken_into_batches:
     print('  Closing', len(batch), 'events')
     di.close_events(batch)
 
-    #uncomment the 2 lines below to archive the events in addition to closing them
+    #Optionally uncomment the code below to archive the events (in addition to closing them)
+    #
     #print('  Archiving', len(batch), 'events')
     #di.archive_events(batch)
 

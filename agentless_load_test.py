@@ -1,5 +1,5 @@
 # Example of to to load test an Agentless scanner by repeatedly sending a file
-# for scanning and then printing a summary of the results to the console.
+# for scanning and then printing a summary of the results to the console
 
 import deepinstinctagentless as di, time, json
 

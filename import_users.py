@@ -1,7 +1,6 @@
 # Example of how to read a list of users from an Excel spreadsheet and bulk
 # create them using the REST API.
 
-
 import deepinstinct3 as di
 import pandas
 

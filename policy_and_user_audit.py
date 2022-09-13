@@ -14,7 +14,6 @@
 # A common use case of a script such as this is to automate "Health Check"
 # type activities, whether at an MSP level or for an entire server.
 
-
 import deepinstinct30 as di
 import datetime, pandas, json, re
 import requests

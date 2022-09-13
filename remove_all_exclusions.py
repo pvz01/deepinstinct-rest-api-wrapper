@@ -2,7 +2,6 @@
 # to reset a demo or lab environemnt. In this example, all exclusions are
 # removed from all Windows policies.
 
-
 import deepinstinct3 as di
 
 #prompt for config

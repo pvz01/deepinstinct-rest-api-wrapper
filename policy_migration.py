@@ -1,17 +1,5 @@
-# This script provides an example of how to use the Deep Instinct REST API
-# Wrapper published at https://github.com/pvz01/deepinstinct_rest_api_wrapper
-# to copy Deep Instinct policies from one management server (or alternately a
-# single MSP within a multi-tenancy management server) to another.
-
-# This script is provided as-is and with no warranty. Use at your own risk, and
-# please test in a non-production environment first.
-
-# PREREQUISITES
-# 1. Python 3.8 or later
-# 2. Deep Instinct REST API Wrapper
-# 3. Third-party libraries (strongly recommend to install Anaconda)
-# 4. Network access to both management servers on port 443
-# 5. API keys with appropriate permissions on both servers
+# Example of how to copy Deep Instinct policies from one management server (or
+# alternately a  single MSP within a multi-tenancy management server) to another
 
 # KNOWN LIMITATIONS AND USAGE NOTES
 # 1. If a policy by the same name already exists, it will be overwritten.
@@ -28,7 +16,7 @@
 
 # USAGE
 # 1. Save the latest version of both this file (policy_migration.py) and
-#    the DI API Wrapper (deepinstinct30.py) to the same folder on disk.
+#    the DI API Wrapper (deepinstinct3.py) to the same folder on disk.
 # 2. Execute the script with this command:  python policy_migration.py
 # 3. Answer the prompts.
 # 4. Review results.

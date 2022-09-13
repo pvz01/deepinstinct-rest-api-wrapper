@@ -3,7 +3,6 @@
 # the newer 'policy_and_user_audit.py' script instead, since it is MUCH more
 # feature complete and produces a more flexible output.
 
-
 import deepinstinct3 as di, datetime
 
 def do_warranty_compliance_check(fqdn, key, exclude_empty_policies):

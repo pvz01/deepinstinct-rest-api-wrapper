@@ -4,7 +4,6 @@
 # before an installation. It could also be used to populate an internal
 # repository for manual installations in break/fix scenarios.
 
-
 #import libraries
 import requests, json
 

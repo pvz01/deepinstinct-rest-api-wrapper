@@ -11,11 +11,11 @@ Suggested Usage:
 
 1. Save deepinstinct*.py in the same directory as your own code
 2. Depending upon which version of the Deep Instinct D-Appliance or Deep Instinct Agentless Connector you are interacting with, include one of the following at the top of your code:
-   'import deepinstinct3 as di'
+   import deepinstinct3 as di
    or
-   'import deepinstinct25 as di'
+   import deepinstinct25 as di
    or
-   'import deepinstinctagentless as di'
+   import deepinstinctagentless as di
 3. Set/modify the DI server name like this: di.fqdn = 'SERVER-NAME' (not applicable to Agentless Connector)
 4. Set/modify the DI REST API key like this: di.key = 'API-KEY' (not applicable to Agentless Connector)
 5. Set/modify the Deep Instinct Agentless Connector like this: di.agentless_connector = 'IP-ADDRESS-OR-DNS-NAME' (not applicable to D-Appliance)

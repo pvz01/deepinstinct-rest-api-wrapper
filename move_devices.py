@@ -3,7 +3,6 @@
 # of hostnames from an Excel document or ASCII text file or any source where
 # you have a list of hostnames with 1 per line and no prefix/suffix/wrapping.
 
-
 import deepinstinct3 as di
 
 #prompt for config

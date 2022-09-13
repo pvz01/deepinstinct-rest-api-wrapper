@@ -1,4 +1,4 @@
-# Deep Instinct v2.5 REST API Wrapper
+# Deep Instinct v2.5 REST API Wrapper for Python
 # Patrick Van Zandt
 #
 # Compatibility:

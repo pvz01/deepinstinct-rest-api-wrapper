@@ -3,7 +3,6 @@
 # exclusion entries applied to some but not all policies and applying them
 # to the additional policies.
 
-
 #import API wrapper from https://github.com/pvz01/deepinstinct_rest_api_wrapper (always download/sync latest!)
 import deepinstinct3 as di
 

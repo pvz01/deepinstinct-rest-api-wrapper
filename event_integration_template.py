@@ -3,7 +3,6 @@
 # events at a 5 minute intervals. Just drop in code for whatever you want to do
 # with those events.
 
-
 # Import required libraries
 import requests, time, json
 

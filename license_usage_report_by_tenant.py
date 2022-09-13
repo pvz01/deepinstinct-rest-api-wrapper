@@ -1,6 +1,5 @@
 # Example of how to generate a usage/billing report on a multi-tenancy server.
 
-
 import pandas, datetime, deepinstinct30 as di, sys
 
 # Optional hardcoded config - if not provided, you'll be prompted at runtime

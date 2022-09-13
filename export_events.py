@@ -4,7 +4,6 @@
 # complex searches which may not be easily impelemtned as filters in the GUI's
 # event filtering feature set.
 
-
 import pandas, datetime
 import deepinstinct3 as di
 

@@ -3,7 +3,6 @@
 # policy, and event data. The assessment is written to disk in Excel format, and
 # can be copy-pasted into move_devices.py prompts to automate moves.
 
-
 # import required libraries
 import deepinstinct3 as di, json, datetime, pandas, re, sys
 from dateutil import parser

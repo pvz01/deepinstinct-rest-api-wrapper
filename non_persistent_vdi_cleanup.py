@@ -8,7 +8,6 @@
 # hides the devices from the Dashboard and any views or queries that display
 # only devices with an activated license.
 
-
 import deepinstinct3 as di, datetime
 
 # Server configuration

@@ -39,7 +39,6 @@
 #    key, and the id of the template msp in-line below.
 # 3. Execute the script with this command:  python provision_msp.py
 
-
 import deepinstinct3 as di
 import json
 

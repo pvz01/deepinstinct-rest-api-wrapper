@@ -1,7 +1,6 @@
 # Example of how to build a custom integration to pull new Audit Log entries
 # at a defined interval and then push them to a Slack channel.
 
-
 #---import required libraries---
 import time, json, requests, datetime, deepinstinct30 as di
 from dateutil import parser

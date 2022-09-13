@@ -2,7 +2,6 @@
 # scenario where some (or many) devices were prematurely moved to a more
 # restrictive policy.
 
-
 #import API Wrapper (Python bindings) and additional libraries
 import deepinstinct3 as di
 import pandas, datetime

@@ -4,7 +4,6 @@
 # exclusions_example_*.xlsx as example of the proper format and to then use
 # these files as your template.
 
-
 import deepinstinct3 as di
 import pandas
 import time

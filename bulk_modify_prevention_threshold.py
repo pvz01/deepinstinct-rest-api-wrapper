@@ -1,7 +1,7 @@
 # Example of how to modify a policy setting or set of setting in bulk, including
 # an unlimited quantity of policies on 1 or more managenent servers, in a single
 # script. On a multi-tenancy server, the scope of policies modified will depend
-# upon the privileges of the API key(s) you provide in the server_list.
+# upon the privileges of the API key(s) you provide in the server_list
 
 server_list = [
 

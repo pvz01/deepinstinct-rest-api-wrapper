@@ -1,4 +1,4 @@
 *.pyc
 *.ipynb
-exported_data_from_*.deepinstinctweb.com/*
+exported_data_*
 *.conf

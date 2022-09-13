@@ -6,8 +6,7 @@
 #     that you define. For this workflow, a preview in the form of an export of
 #     the matching events is written to disk in Excel format for review before
 #     confirming the change.
-# Supports taking one or more of these actions: open, close, archive, unarchive
-
+# Supports taking one or more of these actions: open, close, archive, unarchive.
 
 import deepinstinct3 as di, json, datetime, pandas, sys
 from dateutil import parser

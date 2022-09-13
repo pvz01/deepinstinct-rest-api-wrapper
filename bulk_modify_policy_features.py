@@ -3,7 +3,6 @@
 # script. On a multi-tenancy server, the scope of policies modified will depend
 # upon the privileges of the API key(s) you provide in the server_list.
 
-
 server_list = [
 
 {'fqdn': 'SERVER1.customers.deepinstinctweb.com',

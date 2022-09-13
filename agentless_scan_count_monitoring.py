@@ -1,6 +1,6 @@
 # Example of how to monitor key business metrics (in this example, aggregate
 # quantity of Agentless scan count for all scanners registered on a server)
-# at a defined interval and record the results in a simple ASCII test file.
+# at a defined interval and record the results in a simple ASCII test file. 
 
 import deepinstinct25 as di, datetime, time
 

@@ -1,9 +1,8 @@
 # Example of how to build automated alarms for potential operation problems.
 # This example periodically (at defined interval) reads device list data and
 # calculates what percent of devices are online versus offline. When offline
-# percentage (ratio) exceeds a defined limit, it can be configured to throw 
+# percentage (ratio) exceeds a defined limit, it can be configured to throw
 # an alarm.
-
 
 import deepinstinct25 as di, time, json
 

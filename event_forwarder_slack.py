@@ -18,7 +18,6 @@
 #       killed and restarted. Be cautious not to delete/rename/move the .conf
 #       file. Doing so will cause the script to re-send all events.
 
-
 #---import required libraries---
 import time, json, requests, datetime, deepinstinct30 as di
 
