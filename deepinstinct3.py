@@ -14,16 +14,6 @@
 # 6. For testing and interactive usage, I use and recommend Jupyter Notebook,
 #    which is installed as part of Anaconda (https://www.anaconda.com/)
 #
-# Disclaimer:
-# This code is provided as an example of how to build code against and interact
-# with the Deep Instinct REST API. It is provided AS-IS/NO WARRANTY. It has
-# limited error checking and logging, and likely contains defects or other
-# deficiencies. Test thoroughly first, and use at your own risk. This API
-# Wrapper is not a Deep Instinct commercial product and is not officially
-# supported, althought he underlying REST API is. This means that to report an
-# issue to tech support you must remove the API Wrapper layer and recreate the
-# problem against the raw/pure DI REST API.
-#
 
 debug_mode = False
 quiet_mode = False
