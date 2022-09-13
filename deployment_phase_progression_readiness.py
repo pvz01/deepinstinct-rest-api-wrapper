@@ -350,8 +350,6 @@ Phase 2
 
 Phase 3
     Phase 2 features move to prevent mode
-    Aligns with Prescribed Security Settings published at the following URL:
-    https://portal.deepinstinct.com/sys/document/preview/Deep-Instinct-Prescribed-Security-Settings-210802120146.pdf
 
 This tool currently supports Windows devices and policies. All non-Windows
 data is excluded from analysis.
