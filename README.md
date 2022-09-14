@@ -1,10 +1,10 @@
-# deepinstinct_rest_api_wrapper
-Open source API Wrapper (Python Bindings) for Deep Instinct REST API + associated samples
+# deepinstinct-rest-api-wrapper
+Open source API Wrapper (Python Bindings) for Deep Instinct REST API + a collection of example scripts consuming it
 
 Compatibility:
-* deepinstinct3 - Designed for and tested using Deep Instinct D-Appliance version 3.x
-* deepinstinct25 - Designed for and tested using Deep Instinct D-Appliance version 2.5.x
-* deepinstinctagentless - Designed for and tested against Deep Instinct Agentless Connector version 2.3.2.0p
+* deepinstinct3.py - Designed for and tested using Deep Instinct D-Appliance version 3.x
+* deepinstinct25.py - Designed for and tested using Deep Instinct D-Appliance version 2.5.x
+* deepinstinctagentless.py - Designed for and tested against Deep Instinct Agentless Connector version 2.3.2.0p
 * All of above written and tested using a Python 3.8.3 instance installed by Anaconda
 
 Suggested Usage:
