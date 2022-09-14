@@ -320,7 +320,7 @@ def calculate_export_file_name(policies, mt, multi_msp):
         server_shortname = re.sub(r'[^a-z0-9]','',policies[0]['msp_name'].lower())
     else:
         server_shortname = di.fqdn.split(".",1)[0]
-    file_name = f'policy_audit_{datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d_%H.%M")}_UTC_{server_shortname}.xlsx'
+    file_name = f'policy_and_user_audit_{datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d_%H.%M")}_UTC_{server_shortname}.xlsx'
     return file_name
 
 
