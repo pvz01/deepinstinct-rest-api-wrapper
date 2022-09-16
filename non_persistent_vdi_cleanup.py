@@ -44,25 +44,10 @@ for device in devices:
 
 # Process the list of devices which were identified for removal
 for device in devices_to_remove:
-    print('Removing device', device['id'], device['hostname'])
+    
+    print('Requesting uninstall of device', device['id'], device['hostname'])
     di.remove_device(device)
+    
+    #NOTE: Uncomment the lines below to also archive (hide from GUI and REST API) the devices
+    #print('Archiving device', device['id'], device['hostname'])
     #di.archive_device(device)
-
-# OPTIONAL - uncomment the line of code above to archive (hide from GUI and API)
-# the devices in addition to requesting an uninstall. This can be advantegous
-# if you want to completely hide the devices from all views in the GUI (even
-# those with zero filters), but it has a negative effect of also hiding any
-# associated events. Additionally, if a device is erroneously archived it does
-# not get automatically un-archived if it reconnects as of 3.3.
-
-# Disclaimer:
-# This code is provided as an example of how to build code against and interact
-# with the Deep Instinct REST API. It is provided AS-IS/NO WARRANTY. It has
-# limited error checking and logging, and likely contains defects or other
-# deficiencies. Test thoroughly first, and use at your own risk. The API
-# Wrapper and associated samples are not Deep Instinct commercial products and
-# are not officially supported, although he underlying REST API is. This means
-# that to report an issue to tech support you must remove the API Wrapper layer
-# and recreate the problem with a reproducible test case against the raw/pure
-# DI REST API.
-#
