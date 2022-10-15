@@ -1,3 +1,5 @@
+Deprecated - please reference https://github.com/pse-deepinstinct/Public-Scripts
+
 # deepinstinct-rest-api-wrapper
 Open source API Wrapper (Python Bindings) for Deep Instinct REST API + a collection of example scripts consuming it
 
